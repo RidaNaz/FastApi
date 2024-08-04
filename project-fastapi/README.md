@@ -21,7 +21,7 @@ pip install httpx
 
 ## 4. Write code
 
-Visit [`main.py`](/project_fastapi/main.py) to see code:
+Visit [`main.py`](/project-fastapi/project_fastapi/main.py) to see code:
 
 ## 5. Run project in Poetry Envirnoment:
 
@@ -41,7 +41,7 @@ http://0.0.0.0:8000/openapi.json   # default page
 
 ## 6. Testing
 
-- Visit [`test_main.py`](/tests/test_main.py) to see testing code:
+- Visit [`test_main.py`](/project-fastapi/tests/test_main.py) to see testing code:
 
 - Run these commands to see test results:
 
