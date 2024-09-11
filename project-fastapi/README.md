@@ -1,14 +1,14 @@
-# FastAPI
+# FastAPI Project
 
 ## 1. Create Project:
 
 ```bash
-poetry new project-fastapi
+poetry new <project-name>
 ```
 ## 2. Change directory to project:
 
 ```bash
-cd project-fastapi
+cd <project-name>
 ```
 
 ## 3. Add dependecies:
@@ -27,6 +27,8 @@ Visit [`main.py`](/project-fastapi/project_fastapi/main.py) to see code:
 
 ```bash
 poetry run uvicorn project_fastapi.main:app --reload
+
+# --reload flag enables hot-reloading in development mode. It means it automatically reloads the server every time you change and save any Python code.
 ```
 
 ## 6. Open in Browser:
